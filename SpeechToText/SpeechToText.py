@@ -1,6 +1,10 @@
 # Note: you need to be using OpenAI Python v0.27.0 for the code below to work
 import openai
+import os
 
+if not os.path.exists('audio'):
+    os.makedirs(folder_name)
+	
 openai.organization = "ORG"
 openai.api_key = "API_KEY"
 transcript = ''
