@@ -1,8 +1,8 @@
 # Note: you need to be using OpenAI Python v0.27.0 for the code below to work
 import openai
 
-openai.organization = "org-XzStKmWQcLGpiopghiRMh7a0"
-openai.api_key = "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"
+openai.organization = "ORG"
+openai.api_key = "API_KEY"
 transcript = ''
 
 
